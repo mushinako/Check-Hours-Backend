@@ -1,0 +1,24 @@
+{
+    "request": {
+        "id": 21,
+        "session-id": 549830829,
+        "priority": false,
+        "actions": [{
+            "id": 0,
+            "method": "setValue",
+            "xpath": "Device/DNS/Relay/Forwardings/Forwarding[Alias=\"STATIC_1\"]/DNSServer",
+            "parameters": {
+                "value": "1.1.1.1"
+            }
+        }, {
+            "id": 1,
+            "method": "setValue",
+            "xpath": "Device/DNS/Relay/Forwardings/Forwarding[Alias=\"STATIC_2\"]/DNSServer",
+            "parameters": {
+                "value": "8.8.8.8"
+            }
+        }],
+        "cnonce": 1652761344,
+        "auth-key": "d79596e98d3bcaaa3151e06f3464c286"
+    }
+}

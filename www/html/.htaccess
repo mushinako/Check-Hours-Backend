@@ -1,0 +1,19 @@
+Options -Indexes
+
+ErrorDocument 403 "Sorry this file is not on this server"
+ErrorDocument 404 "Sorry this file is not on this server"
+
+Order deny,allow
+Require all denied
+
+<FilesMatch "^robots\.txt$">
+	Require all granted
+</FilesMatch>
+
+#<FilesMatch "^stella\.ovpn$">
+#	Require all granted
+#</FilesMatch>
+
+#<FilesMatch "^stella-local\.ovpn$">
+#	Require all granted
+#</FilesMatch>

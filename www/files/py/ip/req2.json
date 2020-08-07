@@ -1,0 +1,19 @@
+{
+    "request": {
+        "id": 1,
+        "session-id": 2094063359,
+        "priority": false,
+        "actions": [{
+            "id": 0,
+            "method": "getValue",
+            "xpath": "Device/IP/Interfaces/Interface[Alias=\"IP_DATA\"]/IPv4Addresses/IPv4Address[Alias=\"IP_DATA_ADDRESS\"]/IPAddress",
+            "options": {
+                "capability-flags": {
+                    "interface": true
+                }
+            }
+        }],
+        "cnonce": 1263038930,
+        "auth-key": "e56067f2f7a4af484360c8d44981c178"
+    }
+}

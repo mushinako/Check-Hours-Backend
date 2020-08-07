@@ -1,0 +1,5 @@
+Order deny,allow
+
+<FilesMatch "^search\.php$">
+	Require all granted
+</FilesMatch>

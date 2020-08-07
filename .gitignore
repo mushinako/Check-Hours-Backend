@@ -1,0 +1,5 @@
+**/key/
+**/log/
+**/xlsx/
+**/vendor/
+**/__pycache__/
