@@ -11,7 +11,7 @@ from filecmp import cmp
 
 from openpyxl import load_workbook
 
-URL = r'https://studentcsulb-my.sharepoint.com/:x:/g/personal/sophia_villarreal_student_csulb_edu/EfcNUG_6bL1Fp6cE83XzwvUBqQiezo1AxirUR4AChrzfRg?e=I24hVY'
+URL = CENSORED
 EXT = 'xlsm'
 
 NOW = datetime.now()
