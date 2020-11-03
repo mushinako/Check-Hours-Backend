@@ -7,9 +7,7 @@ import requests
 from datetime import datetime
 from subprocess import call
 
-# URL = r'https://studentcsulb-my.sharepoint.com/:x:/g/personal/sophia_villarreal_student_csulb_edu/Ef9XZueHDKxEqgeQHSc7INEBCRCRtPMxsf_OIb4UDSFITg?e=7AuEfj'
-# URL = r'https://studentcsulb-my.sharepoint.com/:x:/g/personal/sophia_villarreal_student_csulb_edu/EbVrY_kKMX1BmNYiF8y-eCcBhoyj3ryU4OqM8rTnkMcGnA?e=Q7CGeg'
-URL = r'https://studentcsulb-my.sharepoint.com/:x:/g/personal/sophia_villarreal_student_csulb_edu/EfcNUG_6bL1Fp6cE83XzwvUBqQiezo1AxirUR4AChrzfRg?e=I24hVY'
+URL = CENSORED
 EXT = 'xlsm'
 
 NOW = datetime.now()
